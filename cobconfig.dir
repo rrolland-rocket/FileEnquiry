@@ -1,0 +1,2 @@
+set core_on_error=3 
+set core_filename="/home/roch/HUB/PROJETS/VSCODE/FileEnquiry/Core/core.%d-%t-%f"

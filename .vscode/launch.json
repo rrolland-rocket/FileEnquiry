@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cobol",
+            "request": "launch",
+            "name": "COBOL Wait for Attachment - id debug",
+            "waitForAttachment": {
+                "id" : "debug"
+            },
+            "remoteDebug": {
+                "machine": "127.0.0.1",
+                "port": 9876
+            },
+            "stopOnEntry": true,
+            "cwd": "${workspaceFolder}/build"
+        },
+        {
+            "type": "cobol",
+            "request" : "launch",
+            "name" : "COBOL Wait for Attachment - id debug - Without remotedebug parameter",
+            "waitForAttachment": {
+                "id" : "debug"
+            },
+            "stopOnEntry": true,
+            "cwd" : "${workspaceFolder}/build"
+        },
+        {
+            "type" : "cobol",
+            "request" : "launch",
+             "name" : "core dump",
+             "program" : "${workspaceFolder}/Core/core.20250908-122201-Inquiry",
+             "stopOnEntry": true,
+             "cwd" : "${workspaceFolder}",
+             "symbolSearchPaths" : [
+                "${workspaceFolder}/build"
+             ]
+        }
+
+    ]
+}

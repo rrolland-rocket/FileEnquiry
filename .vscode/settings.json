@@ -1,0 +1,9 @@
+{
+    "rocketCOBOL.defaultDirectives": [
+        "int()",
+        "anim",
+        "nognt",
+        "errformat(3)",
+        "COPYPATH(/home/$LOGNAME/HUB/PROJETS/VSCODE/FileEnquiry:/home/$LOGNAME/HUB/PROJETS/VSCODE/FileEnquiry/cpy)"
+    ]
+}

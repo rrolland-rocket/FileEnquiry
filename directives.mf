@@ -1,0 +1,6 @@
+@root
+
+[*.cbl]
+ASSIGN(EXTERNAL) LIST() SETTINGS(COL)
+GNT(${directives.dir}build)
+COBIDY(${directives.dir}build)
